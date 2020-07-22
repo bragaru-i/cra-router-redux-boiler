@@ -84,10 +84,12 @@ body {
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  background-color: #e5e5e5;
   /* 1rem=10px */
 }
 
 body {
+  background-color: #fff;
   font-weight: 400;
   background: #fff;
   -webkit-box-sizing: border-box;
@@ -95,6 +97,11 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   width: 136.6rem;
   margin: 0 auto;
+}
+
+.row {
+  margin: 0 auto;
+  width: 114rem;
 }
 
 .spacer {

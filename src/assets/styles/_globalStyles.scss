@@ -8,16 +8,22 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  background-color: #e5e5e5;
   /* 1rem=10px */
 }
 
 body {
+  background-color: $color-body;
   font-weight: 400;
   background: $color-body;
   box-sizing: border-box;
   font-family: $font;
   width: 136.6rem;
   margin: 0 auto;
+}
+.row {
+  margin: 0 auto;
+  width: 114rem;
 }
 .spacer {
   flex: 1;
